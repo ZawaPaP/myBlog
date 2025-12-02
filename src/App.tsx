@@ -36,7 +36,7 @@ const App = () => {
             edge="end"
             color="primary"
             aria-label="GitHub"
-            href="https://github.com/"
+            href="https://github.com/ZawaPaP"
             target="_blank"
             rel="noreferrer"
           >
