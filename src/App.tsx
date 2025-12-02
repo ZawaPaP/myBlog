@@ -22,7 +22,7 @@ const App = () => {
         <Toolbar sx={{ maxWidth: 960, width: "100%", mx: "auto" }}>
           <MenuBookRoundedIcon color="primary" sx={{ mr: 1 }} />
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            My Engineering Notes
+            My Blog
           </Typography>
           <Stack direction="row" spacing={1} sx={{ mr: 1 }}>
             <Button component={RouterLink} to="/posts" color="primary">
@@ -61,7 +61,7 @@ const App = () => {
         color="text.secondary"
       >
         <Typography variant="body2">
-          © {new Date().getFullYear()} My Engineering Notes
+          © {new Date().getFullYear()} My Blog
         </Typography>
       </Stack>
     </Stack>
